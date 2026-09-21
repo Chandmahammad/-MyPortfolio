@@ -10,16 +10,16 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #0b1220;
-    color: #e5e7eb;
+    background-color: #111827;
+    color: #d1d9e6;
     line-height: 1.7;
 }
 
 /* ===== 2. NAVIGATION ===== */
 
 header {
-    background-color: #0b1220;
-    border-bottom: 1px solid #1e293b;
+    background-color: #111827;
+    border-bottom: 1px solid #283548;
 
     position: sticky;
     top: 0;
@@ -37,7 +37,7 @@ nav {
 }
 
 .logo {
-    color: #38bdf8;
+    color: #8ba4c7;
     font-size: 25px;
 }
 
@@ -48,14 +48,14 @@ nav ul {
 }
 
 nav a {
-    color: #cbd5e1;
+    color: #d1d9e6;
     text-decoration: none;
     font-size: 14px;
     transition: 0.3s;
 }
 
 nav a:hover {
-    color: #38bdf8;
+    color: #8ba4c7;
 }
 
 /* ===== 3. COMMON SECTIONS ===== */
@@ -74,7 +74,7 @@ section {
 
 section > h2 {
     font-size: 32px;
-    color: #38bdf8;
+    color: #8ba4c7;
     margin-bottom: 35px;
     text-align: center;
 }
@@ -90,7 +90,7 @@ section > h2 {
 }
 
 .welcome {
-    color: #38bdf8;
+    color: #8ba4c7;
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 3px;
@@ -104,18 +104,18 @@ section > h2 {
 }
 
 .home h1 span {
-    color: #38bdf8;
+    color: #8ba4c7;
 }
 
 .home h2 {
-    color: #cbd5e1;
+    color: #d1d9e6;
     font-size: 22px;
     font-weight: normal;
     margin-bottom: 20px;
 }
 
 .home p {
-    color: #94a3b8;
+    color: #a7b2c4;
     margin-bottom: 25px;
 }
 
@@ -123,8 +123,8 @@ section > h2 {
 
 .btn {
     display: inline-block;
-    background-color: #38bdf8;
-    color: #082f49;
+    background-color: #8ba4c7;
+    color: #111827;
 
     padding: 12px 25px;
     border-radius: 6px;
@@ -136,7 +136,7 @@ section > h2 {
 }
 
 .btn:hover {
-    background-color: #7dd3fc;
+    background-color: #b3c3d8;
     transform: translateY(-2px);
 }
 
@@ -152,10 +152,10 @@ section > h2 {
 }
 
 .social-links a {
-    color: #cbd5e1;
+    color: #d1d9e6;
     text-decoration: none;
 
-    border: 1px solid #334155;
+    border: 1px solid #475569;
     padding: 8px 16px;
     border-radius: 6px;
 
@@ -163,20 +163,20 @@ section > h2 {
 }
 
 .social-links a:hover {
-    color: #38bdf8;
-    border-color: #38bdf8;
+    color: #b3c3d8;
+    border-color: #8ba4c7;
 }
 
 /* ===== 7. ABOUT ===== */
 
 #about {
-    background-color: #0f1a2b;
+    background-color: #172033;
 }
 
 #about p {
     max-width: 750px;
     text-align: center;
-    color: #aab8ca;
+    color: #b8c3d2;
     font-size: 17px;
 }
 
@@ -191,11 +191,11 @@ section > h2 {
 }
 
 .skill-card {
-    background-color: #111c2e;
+    background-color: #1e293b;
     width: 220px;
     padding: 25px;
 
-    border: 1px solid #26364b;
+    border: 1px solid #334155;
     border-radius: 8px;
 
     text-align: center;
@@ -203,17 +203,17 @@ section > h2 {
 }
 
 .skill-card h3 {
-    color: #38bdf8;
+    color: #8ba4c7;
     margin-bottom: 10px;
 }
 
 .skill-card p {
-    color: #94a3b8;
+    color: #a7b2c4;
     font-size: 14px;
 }
 
 .skill-card:hover {
-    border-color: #38bdf8;
+    border-color: #8ba4c7;
     transform: translateY(-4px);
 }
 
@@ -228,24 +228,24 @@ section > h2 {
 }
 
 .project-card {
-    background-color: #111c2e;
+    background-color: #1e293b;
     width: 280px;
     padding: 25px;
 
-    border: 1px solid #26364b;
+    border: 1px solid #334155;
     border-radius: 8px;
 
     transition: 0.3s;
 }
 
 .project-card h3 {
-    color: #38bdf8;
+    color: #8ba4c7;
     font-size: 19px;
     margin-bottom: 12px;
 }
 
 .project-card p {
-    color: #94a3b8;
+    color: #a7b2c4;
     font-size: 14px;
 }
 
@@ -253,24 +253,24 @@ section > h2 {
     display: inline-block;
     margin-top: 18px;
 
-    color: #7dd3fc;
+    color: #b3c3d8;
     font-size: 13px;
     font-weight: bold;
 }
 
 .project-card:hover {
-    border-color: #38bdf8;
+    border-color: #8ba4c7;
     transform: translateY(-4px);
 }
 
 /* ===== 10. CONTACT ===== */
 
 #contact {
-    background-color: #0f1a2b;
+    background-color: #172033;
 }
 
 #contact > p {
-    color: #94a3b8;
+    color: #a7b2c4;
     text-align: center;
     margin-bottom: 25px;
 }
@@ -289,10 +289,10 @@ form textarea {
     width: 100%;
     padding: 14px;
 
-    background-color: #111c2e;
-    color: white;
+    background-color: #1e293b;
+    color: #d1d9e6;
 
-    border: 1px solid #334155;
+    border: 1px solid #475569;
     border-radius: 6px;
 
     font-size: 15px;
@@ -301,8 +301,8 @@ form textarea {
 
 form input:focus,
 form textarea:focus {
-    outline: 1px solid #38bdf8;
-    border-color: #38bdf8;
+    outline: 1px solid #8ba4c7;
+    border-color: #8ba4c7;
 }
 
 form textarea {
@@ -313,8 +313,8 @@ form textarea {
 form button {
     padding: 13px;
 
-    background-color: #38bdf8;
-    color: #082f49;
+    background-color: #8ba4c7;
+    color: #111827;
 
     border: none;
     border-radius: 6px;
@@ -327,19 +327,19 @@ form button {
 }
 
 form button:hover {
-    background-color: #7dd3fc;
+    background-color: #b3c3d8;
 }
 
 /* ===== 11. FOOTER ===== */
 
 footer {
-    background-color: #080e19;
-    border-top: 1px solid #1e293b;
+    background-color: #0b1120;
+    border-top: 1px solid #283548;
 
     text-align: center;
     padding: 22px;
 
-    color: #64748b;
+    color: #8492a6;
     font-size: 14px;
 }
 
